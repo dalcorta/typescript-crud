@@ -105,7 +105,7 @@ describe('API Tests', () => {
 
     const posts = response.data.posts;
     let found = false
-    posts.forEach(element => {
+    posts.forEach((element : any) => {
       if (element.title == keyword || element.author == keyword || element.description == element.keyword) {
         found = true;
       }
