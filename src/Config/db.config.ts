@@ -1,7 +1,7 @@
 import 'dotenv/config' // module to read .env files
 import mongoose from 'mongoose' // object document mapping module
 
-const connectionString = process.env.CONNSTRING
+const connectionString = process.env.MONGO_CONNECTION_STRING
 /*
   Avoid hard-coding sensitive information,
   Don't forget to add senitive files to .gitignore,
